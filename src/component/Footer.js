@@ -2,12 +2,14 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="py-12 text-white ">
-      <div className="flex-row md:flex md:justify-end text-center   md:text-end gap-10 font-medium px-14 ">
+    <div className="py-4 text-white  flex items-center justify-center sm:justify-start gap-4 sm:gap-0">
+      <h1 className="text-sm sm:text-base sm:w-[55%] font-semibold text-right">
+        CopyRight
+      </h1>
+      <div className="text-sm sm:text-base sm:w-[45%] font-medium  flex gap-4 sm:gap-10 sm:justify-end">
         <h1>Contact us </h1>
         <h1>Privacy Policy </h1>
       </div>
-      <h1 className="flex  justify-center font-semibold">CopyRight</h1>
     </div>
   );
 }
