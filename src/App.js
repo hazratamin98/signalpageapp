@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 import "./App.css";
 import "./gradient.css";
 
@@ -7,8 +9,21 @@ import Container from "./component/container";
 import Gradient from "./component/Gradient";
 
 function App() {
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  const handleResize = () => {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty("--vh", `${vh}px`);
+  };
+
   return (
-    <div>
+    <div className="app-root">
       <div className="background">
         <Gradient />
       </div>
