@@ -37,7 +37,7 @@ function App() {
             </span>
           </div>
           <div className="bg-clip bg-img-4 w-full h-1/4 lg:h-full lg:w-1/4 relative">
-            <span className="center text-white text-2xl font-semibold italic">
+            <span className="center text-white text-2xl font-medium italic">
               <p>
                 <a href="prsn4"> Person 4</a>
               </p>
