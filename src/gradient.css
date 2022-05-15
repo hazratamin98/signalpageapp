@@ -1,0 +1,52 @@
+:root {
+  --duration: 12s;
+  --easing-function: ease-in-out;
+}
+
+.gradient-bg {
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh; */
+}
+
+.gradient-bg .first {
+  stop-color: #1e3e36;
+  animation: a var(--duration) var(--easing-function) infinite;
+}
+
+.gradient-bg .second {
+  stop-color: #000000;
+  animation: b var(--duration) var(--easing-function) infinite;
+}
+
+@keyframes a {
+  0% {
+    stop-color: #1e3e36;
+  }
+  33% {
+    stop-color: #1e3e36;
+  }
+  66% {
+    stop-color: #e3e2ca;
+  }
+  100% {
+    stop-color: #1e3e36;
+  }
+}
+
+@keyframes b {
+  0% {
+    stop-color: #000000;
+  }
+  33% {
+    stop-color: #0e2721;
+  }
+  66% {
+    stop-color: #0a3c30;
+  }
+  100% {
+    stop-color: #000000;
+  }
+}
