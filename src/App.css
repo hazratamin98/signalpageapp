@@ -107,7 +107,7 @@ p:nth-child(1) a:hover {
 }
 
 p a:hover {
-  color: blue;
+  color: rgb(66, 66, 173);
 }
 
 /*glow*/
