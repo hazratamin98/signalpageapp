@@ -23,7 +23,7 @@ function App() {
   };
 
   return (
-    <div className="app-root">
+    <div>
       <div className="background">
         <Gradient />
       </div>
