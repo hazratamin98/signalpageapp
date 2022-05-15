@@ -43,31 +43,15 @@
   background-image: url("./image/img.jpg");
 }
 
-/* hello */
-@font-face {
-  font-family: "Monoton";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Monoton"), local("Monoton-Regular"),
-    url(http://themes.googleusercontent.com/static/fonts/monoton/v4/AKI-lyzyNHXByGHeOcds_w.woff)
-      format("woff");
-}
-
 /*neeeeoooon*/
 
 span {
   color: white;
-  font-family: Monoton;
-}
-
-span:hover {
+  font-family: "Monoton", cursive;
+  /* 
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
   -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate;
-}
-
-span:hover {
-  color: rgb(66, 66, 173);
+  animation: neon1 1.5s ease-in-out infinite alternate; */
 }
 
 /*glow*/
