@@ -12,18 +12,18 @@ function App() {
   return (
     <Container>
       <Navbar />
-      <div className="h-screen w-full sm:flex justify-between text-center cursor-pointer text-white ">
+      <div className="h-screen w-full sm:flex justify-between text-center cursor-pointer bg-[#1E3E36]  text-white ">
         <div className="clip-your-needful-style bg-red-300 w-1/4">
-          <a>Item 1</a>
+          <a href="image-2">Item 1</a>
         </div>
-        <div className=" clip-your-needful-style  w-1/4 bg-blue-300">
-          <a>Item 2</a>
+        <div className=" clip-your-needful-style2  w-1/4 bg-blue-300">
+          <a href="image-2">Item 2</a>
         </div>
-        <div className=" clip-your-needful-style w-1/4 bg-green-400">
-          <a>Item 3</a>
+        <div className=" clip-your-needful-style3 w-1/4 bg-green-400">
+          <a href="image-4">Item 3</a>
         </div>
-        <div className="clip-your-needful-style w-1/4 bg-yellow-500">
-          <a>Item 4</a>
+        <div className="clip-your-needful-style4 w-1/4 bg-yellow-500">
+          <a href="image-4">Item 4</a>
         </div>
       </div>
 
