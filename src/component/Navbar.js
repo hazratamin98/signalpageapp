@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div className="py-8  bg-slate-50 shadow-md flex justify-between px-20">
-      <a href="f">Logo</a>
+      <a href="logo">Logo</a>
       <button>LogIn</button>
     </div>
   );
