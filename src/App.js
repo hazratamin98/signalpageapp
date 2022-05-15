@@ -17,30 +17,22 @@ function App() {
         <div className="h-[calc(100vh-158px)] w-full flex flex-col lg:flex-row">
           <div className="bg-clip bg-img-1 w-full h-1/4 lg:h-full lg:w-1/4 relative ">
             <span className="center text-white text-2xl font-medium italic  ">
-              <p>
-                <a href="prsn1"> Person 1</a>
-              </p>
+              Person 1
             </span>
           </div>
           <div className="bg-clip bg-img-2 w-full h-1/4 lg:h-full lg:w-1/4 relative">
             <span className="center text-white text-2xl font-medium italic">
-              <p>
-                <a href="prsn2"> Person 2</a>
-              </p>
+              Person 2
             </span>
           </div>
           <div className="bg-clip bg-img-3 w-full h-1/4 lg:h-full lg:w-1/4 relative">
             <span className="center text-white text-2xl font-medium italic">
-              <p>
-                <a href="prsn3"> Person 3</a>
-              </p>
+              Person 3
             </span>
           </div>
           <div className="bg-clip bg-img-4 w-full h-1/4 lg:h-full lg:w-1/4 relative">
             <span className="center text-white text-2xl font-medium italic">
-              <p>
-                <a href="prsn4"> Person 4</a>
-              </p>
+              Person 4
             </span>
           </div>
         </div>

@@ -49,64 +49,20 @@
       format("woff");
 }
 
-@font-face {
-  font-family: "Iceland";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Iceland"), local("Iceland-Regular"),
-    url(http://themes.googleusercontent.com/static/fonts/iceland/v3/F6LYTZLHrG9BNYXRjU7RSw.woff)
-      format("woff");
-}
-
-@font-face {
-  font-family: "Pacifico";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Pacifico Regular"), local("Pacifico-Regular"),
-    url(http://themes.googleusercontent.com/static/fonts/pacifico/v5/yunJt0R8tCvMyj_V4xSjafesZW2xOQ-xsNqO47m55DA.woff)
-      format("woff");
-}
-
-@font-face {
-  font-family: "PressStart";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Press Start 2P"), local("PressStart2P-Regular"),
-    url(http://themes.googleusercontent.com/static/fonts/pressstart2p/v2/8Lg6LX8-ntOHUQnvQ0E7o3dD2UuwsmbX3BOp4SL_VwM.woff)
-      format("woff");
-}
-
-@font-face {
-  font-family: "Audiowide";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Audiowide"), local("Audiowide-Regular"),
-    url(http://themes.googleusercontent.com/static/fonts/audiowide/v2/8XtYtNKEyyZh481XVWfVOj8E0i7KZn-EPnyo3HZu7kw.woff)
-      format("woff");
-}
-
-@font-face {
-  font-family: "Vampiro One";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Vampiro One"), local("VampiroOne-Regular"),
-    url(http://themes.googleusercontent.com/static/fonts/vampiroone/v3/Ho2Xld8UbQyBA8XLxF1_NYbN6UDyHWBl620a-IRfuBk.woff)
-      format("woff");
-}
-
 /*neeeeoooon*/
 
-p:nth-child(1) a {
+span {
   color: white;
   font-family: Monoton;
 }
-p:nth-child(1) a:hover {
+
+span:hover {
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
   -moz-animation: neon1 1.5s ease-in-out infinite alternate;
   animation: neon1 1.5s ease-in-out infinite alternate;
 }
 
-p a:hover {
+span:hover {
   color: rgb(66, 66, 173);
 }
 
@@ -121,10 +77,6 @@ p a:hover {
       0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
   }
 }
-
-/*REEEEEEEEEEESPONSIVE*/
-
-/* hello there */
 
 @media (min-width: 1024px) {
   .bg-clip {
