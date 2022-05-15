@@ -10,17 +10,9 @@ import Gradient from "./component/Gradient";
 
 function App() {
   useEffect(() => {
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
-  const handleResize = () => {
     let vh = window.innerHeight * 0.01;
     document.documentElement.style.setProperty("--vh", `${vh}px`);
-  };
+  }, []);
 
   return (
     <div>
