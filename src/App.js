@@ -7,6 +7,7 @@ import Navbar from "./component/Navbar";
 import Footer from "./component/Footer";
 import Container from "./component/container";
 import Gradient from "./component/Gradient";
+import Navbarrrr from "./component/Navbarrrr";
 
 function App() {
   useEffect(() => {
@@ -47,6 +48,7 @@ function App() {
           </div>
           <Footer />
         </div>
+        <Navbarrrr />
       </Container>
     </div>
   );
